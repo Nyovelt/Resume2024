@@ -8,12 +8,12 @@
 #fa[#github] #link("https://github.com/nyovelt")[nyovelt] |
 #fa[#globe] #link("https://feiranq.in")[https://feiranq.in] |
 #fa[#linkedin] #link("https://www.linkedin.com/in/feiranqin/")[feiranqin]
-
+#fa[#twitter] #link("https://x.com/canarypwn/")[Feiran (Alex) Qin]
 
 == Education
 #cventry(
   tl: "North Carolina State University",
-  tr:  "2023/08 - 2028/05",
+  tr:  "2023/08 - 2028/05 (Expected)",
   bl: "Ph.D. in Computer Science",
   br: "Raleigh, NC, USA"
 )[
@@ -39,11 +39,9 @@
 #cventry(
   tl: "North Carolina State University",
   tr: "2023/08 - Present",
-  bl: "Improving Software Reliability, under the advisement of " + link("https://damorim.github.io/")[Prof. Marcelo d'Amorim],
+  bl: "Improving Software Reliability, advised by " + link("https://damorim.github.io/")[Prof. Marcelo d'Amorim],
   br: "Raleigh, NC, USA"
-)[
-  - Developed an _LLM-based_ fuzzing tool to identify bugs in contemporary C compilers.
-]
+)[]
 
 #cventry(
   tl: "University of Illinois Urbana-Champaign",
@@ -55,59 +53,60 @@
     - Open-sourced as #iconlink(
     "https://github.com/xlab-uiuc/mxfaas",
     text: "MXFaaS",
-    icon: github), volunteer contributed, earning all three ACM badges in *ISCA' 23* artifact evaluation.
+    icon: github), achieving all three ACM badges for *ISCA' 23* artifact evaluation.
 ]
 
 #cventry(
   tl: "ShanghaiTech University High-Performance Computing",
   tr: "2020/10 - 2023/06",
-  bl: "Core Member, HPC sysadmin, Advisor: " + link("https://sist.shanghaitech.edu.cn/sist_en/2020/0814/c7582a54835/page.htm")[Prof. Shu Yin],
+  bl: "Core Team Member, Advisor: " + link("https://sist.shanghaitech.edu.cn/sist_en/2020/0814/c7582a54835/page.htm")[Prof. Shu Yin],
   br: "Shanghai, China"
 )[
-- #link("https://hpcadvisorycouncil.atlassian.net/wiki/spaces/HPCWORKS/pages/2792161313/Getting+started+with+ICON+for+ISC22+SCC")[*ISC'22 SCC*]: Led #link("https://icon-model.org/")[ ICON] challenge, optimizing MPI-bounded climate simulations in #link("https://docs.alliancecan.ca/wiki/Niagara")[Niagara] and #link("https://www.psc.edu/resources/bridges-2/")[Bridges-2] clusters, achieving a 30% performance improvement by reducing _mpi_wait_ and enhancing _CPU affinity_.; *placed 4th among 12 globally*.
-- *MLSys*: Developed an _DQN-based_ scheduler to optimize HPC tasks response times via CUDA kernel profiling (_kernel2vector_ transform) and traffic data learning, open-sourced as #iconlink(
+- *DevOps*: Managed two high-performance computers, including configuring InfiniBand networks, package management with Spack and Nix, and exploring new technologies like Singularity, Ceph, BeeGFS, DPU, and NVLink.
+- *ISC 22 Student Cluster Competition*: Led #link("https://icon-model.org/")[ ICON] challenge, optimizing MPI-bounded climate simulations in #link("https://docs.alliancecan.ca/wiki/Niagara")[Niagara] and #link("https://www.psc.edu/resources/bridges-2/")[Bridges-2] clusters, achieving 30% performance gain with reduced _mpi\_wait_ and improved _CPU affinity_; *placed 4th globally*.
+- *MLSys Research*: Developed an AI-Scheduler using DQN algorithms to optimize HPC job response times via CUDA kernel profiling (_kernel2vector_ transform) and traffic data, achieving a 10% response time improvement in #iconlink(
     "https://github.com/murez/DASH",
-    text: "DASH (beta)",
+    text: "early version",
     icon: github).]
 
 == Open-Source Contributions
 #cventry(
   tl: "ICON Climate Model",
-  tr: "2024/04",
+  tr: "04/2024",
   bl: "Contributor, NCSU Team",
   br: iconlink(
     "https://gitlab.dkrz.de/icon/icon-model",
     text: "icon-model",
     icon: gitlab)
 )[
-  - Developed and integrated _OpenMPx optimizations_ for the ICON project.
+  - Participated in ISC 24 coding challenge with the NCSU team, contributing OpenMP code optimizations integrated into the ICON project.
 ]
+
 
 #cventry(
   tl: "Anthon Open Source Community",
-  tr: "2022/08 - Present",
-  bl: "Part-time Linux Maintainer",
+  tr: "Start from 08/2022",
+  bl: "Part-time Maintainer",
   br: iconlink(
     "https://github.com/AOSC-dev",
     text: "AOSC OS",
     icon: github)
 )[
-  - Updated and maintained package recipes for the AOSC OS Linux distribution.
+  - Maintained and updated package recipes for AOSC OS, a Linux distribution.
 ]
 
 
 
-
-// == Teaching Experience
-// #cventry(
-//   tl: "North Carolina State University",
-//   tr: "2023/08 - Now",
-//   bl: "Teaching Assistant",
-//   br: "Raleigh, NC, USA"
-// )[
-//   - *CSC 236*: Computer Organization and Assembly Language for Computer Scientists with #link("https://www.csc.ncsu.edu/people/cbatist4")[Prof. Caio Batista de Melo].
-//   - *CSC 246*: Concepts and Facilities of Operating Systems for Computer Scientists with #link("https://shuyinjiao.github.io/")[Prof. Shuyin Jiao].
-// ]
+== Teaching Experience
+#cventry(
+  tl: "North Carolina State University",
+  tr: "2023/08 - Now",
+  bl: "Teaching Assistant",
+  br: "Raleigh, NC, USA"
+)[
+  - *CSC 236*: Computer Organization and Assembly Language for Computer Scientists with #link("https://www.csc.ncsu.edu/people/cbatist4")[Prof. Caio Batista de Melo].
+  - *CSC 246*: Concepts and Facilities of Operating Systems for Computer Scientists with #link("https://shuyinjiao.github.io/")[Prof. Shuyin Jiao].
+]
 
 == Professional Activities
 - *OSDI/ATC 2024*: Artifact Evaluation Committee
@@ -117,8 +116,8 @@
 
 
 == Contests and Awards
-- *8th* of 19, ISC 2024 Student Cluster Competition, Hamburg Germany (Virtual) #h(1fr) 2024/05
-- *4th* of 12, ISC 2022 Student Cluster Competition, Hamburg Germany (Virtual) #h(1fr) 2022/06
-- *2nd*, Intel Hackathon, Beijing, China #h(1fr) 2020/12
+- *8th*, ISC 2024 Student Cluster Competition, Hamburg Germany (Virtual) #h(1fr) 2024/05
+- *4th*, ISC 2022 Student Cluster Competition, Hamburg Germany (Virtual) #h(1fr) 2022/06
+- *2nd*, Intel Innovation Hackathon, Beijing, China #h(1fr) 2020/12
 
-#align(right, text(fill: gray)[Last Updated: #today()])
+#align(right, text(fill: gray)[Last Updated on #today()])
