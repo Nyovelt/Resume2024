@@ -8,7 +8,7 @@
 #fa[#github] #link("https://github.com/nyovelt")[nyovelt] |
 #fa[#globe] #link("https://feiranq.in")[https://feiranq.in] |
 #fa[#linkedin] #link("https://www.linkedin.com/in/feiranqin/")[feiranqin]
-
+#fa[#google-scholar] #link("https://scholar.google.com/citations?user=zSkufsoAAAAJ&hl=en")[Feiran (Alex) Qin]
 
 == Education
 #cventry(
@@ -55,7 +55,7 @@
     - Open-sourced as #iconlink(
     "https://github.com/xlab-uiuc/mxfaas",
     text: "MXFaaS",
-    icon: github), volunteer contributed, earning all three ACM badges in *ISCA' 23* artifact evaluation.
+    icon: github), volunteer Contributions, earning all three ACM badges in *ISCA' 23* artifact evaluation.
 ]
 
 #cventry(
@@ -64,7 +64,7 @@
   bl: "Core Member, HPC sysadmin, Advisor: " + link("https://sist.shanghaitech.edu.cn/sist_en/2020/0814/c7582a54835/page.htm")[Prof. Shu Yin],
   br: "Shanghai, China"
 )[
-- #link("https://hpcadvisorycouncil.atlassian.net/wiki/spaces/HPCWORKS/pages/2792161313/Getting+started+with+ICON+for+ISC22+SCC")[*ISC'22 SCC*]: Led #link("https://icon-model.org/")[ ICON] challenge, optimizing MPI-bounded climate simulations in #link("https://docs.alliancecan.ca/wiki/Niagara")[Niagara] and #link("https://www.psc.edu/resources/bridges-2/")[Bridges-2] clusters, achieving a 30% performance improvement by reducing _mpi_wait_ and enhancing _CPU affinity_.; *placed 4th among 12 globally*.
+- #link("https://hpcadvisorycouncil.atlassian.net/wiki/spaces/HPCWORKS/pages/2792161313/Getting+started+with+ICON+for+ISC22+SCC")[*ISC'22 SCC*]: Led #link("https://icon-model.org/")[ ICON] challenge, optimizing MPI-bounded climate simulations in #link("https://docs.alliancecan.ca/wiki/Niagara")[Niagara] and #link("https://www.psc.edu/resources/bridges-2/")[Bridges-2] clusters, achieving a 30% performance improvement by reducing _mpi_wait_ and enhancing _CPU affinity_.
 - *MLSys*: Developed an _DQN-based_ scheduler to optimize HPC tasks response times via CUDA kernel profiling (_kernel2vector_ transform) and traffic data learning, open-sourced as #iconlink(
     "https://github.com/murez/DASH",
     text: "DASH (beta)",
@@ -117,8 +117,8 @@
 
 
 == Contests and Awards
-- *8th* of 19, ISC 2024 Student Cluster Competition, Hamburg Germany (Virtual) #h(1fr) 2024/05
-- *4th* of 12, ISC 2022 Student Cluster Competition, Hamburg Germany (Virtual) #h(1fr) 2022/06
-- *2nd*, Intel Hackathon, Beijing, China #h(1fr) 2020/12
+- *8th place* out of 19 _worldwide_, ISC 2024 Student Cluster Competition (Virtual), Hamburg, Germany #h(1fr) 2024/05
+- *4th place* out of 12 _worldwide_, ISC 2022 Student Cluster Competition (Virtual), Hamburg, Germany #h(1fr) 2022/06
+- *2nd place*, Intel Hackathon – Prize Money: 30,000 RMB, Beijing, China #h(1fr) 2020/12
 
 #align(right, text(fill: gray)[Last Updated: #today()])

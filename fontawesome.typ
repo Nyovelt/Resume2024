@@ -1,11 +1,14 @@
 
 #let fa(name) = {
   text(
-    font: "Font Awesome 6 Free Solid",
+    font: "Font Awesome 6 Free",
     size: 10pt,
     box[ #name ]
   )
 }
+
+//
+#let google-scholar = symbol("\u{e63b}")
 
 // Regular icons
 
