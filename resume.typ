@@ -95,7 +95,10 @@
   - Updated and maintained package recipes for the AOSC OS Linux distribution.
 ]
 
-
+== Intern Experience
+- #link("https://insightfinder.com/")[*InsightFinder*] (startup), SDE Intern, Full Time #h(1fr) 2024/06 - 2024/08
+- #link("https://hyperhuman.deemos.com/")[*Deemos Technologies Inc*] (startup), SDE Intern, Part Time #h(1fr) 2021/10 - 2022/04
+// - ShanghaiTech Univeristy HPC, Sysadmin Assistant #h(1fr) _2020/09 - 2022/06_
 
 
 // == Teaching Experience
