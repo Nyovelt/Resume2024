@@ -42,7 +42,8 @@
   bl: "Improving Software Reliability, under the advisement of " + link("https://damorim.github.io/")[Prof. Marcelo d'Amorim],
   br: "Raleigh, NC, USA"
 )[
-  - Developed an _LLM-based_ fuzzing tool to identify bugs in contemporary C compilers.
+  - Developed several tools to automatically find bugs for Machine Learning Libraries such as _PyTorch_ and _TensorFlow_.
+  - Developed an _LLM-based_ fuzzing tool to identify bugs in C compilers.
 ]
 
 #cventry(
@@ -55,7 +56,7 @@
     - Open-sourced as #iconlink(
     "https://github.com/xlab-uiuc/mxfaas",
     text: "MXFaaS",
-    icon: github), volunteer Contributions, earning all three ACM badges in *ISCA' 23* artifact evaluation.
+    icon: github), volunteer contributor, earning all three ACM badges in *ISCA' 23* artifact evaluation.
 ]
 
 #cventry(
@@ -65,7 +66,7 @@
   br: "Shanghai, China"
 )[
 - #link("https://hpcadvisorycouncil.atlassian.net/wiki/spaces/HPCWORKS/pages/2792161313/Getting+started+with+ICON+for+ISC22+SCC")[*ISC'22 SCC*]: Led #link("https://icon-model.org/")[ ICON] challenge, optimizing MPI-bounded climate simulations in #link("https://docs.alliancecan.ca/wiki/Niagara")[Niagara] and #link("https://www.psc.edu/resources/bridges-2/")[Bridges-2] clusters, achieving a 30% performance improvement by reducing _mpi_wait_ and enhancing _CPU affinity_.
-- *MLSys*: Developed an _DQN-based_ scheduler to optimize HPC tasks response times via CUDA kernel profiling (_kernel2vector_ transform) and traffic data learning, open-sourced as #iconlink(
+- *ML-System*: Developed an _DQN-based_ scheduler to optimize HPC tasks response times via CUDA kernel profiling (_kernel2vector_ transform) and traffic data learning, open-sourced as #iconlink(
     "https://github.com/murez/DASH",
     text: "DASH (beta)",
     icon: github).]
@@ -74,13 +75,13 @@
 #cventry(
   tl: "ICON Climate Model",
   tr: "2024/04",
-  bl: "Contributor, NCSU Team",
+  bl: "Contributor, Team NCSU",
   br: iconlink(
     "https://gitlab.dkrz.de/icon/icon-model",
     text: "icon-model",
     icon: gitlab)
 )[
-  - Developed and integrated _OpenMPx optimizations_ for the ICON project.
+  - Developed and integrated _OpenMPI optimizations_ for the ICON project.
 ]
 
 #cventry(
@@ -92,12 +93,12 @@
     text: "AOSC OS",
     icon: github)
 )[
-  - Updated and maintained package recipes for the AOSC OS Linux distribution.
+  - Maintained package recipes for the AOSC OS Linux distribution.
 ]
 
-== Intern Experience
-- #link("https://insightfinder.com/")[*InsightFinder*] (startup), SDE Intern, Full Time #h(1fr) 2024/06 - 2024/08
-- #link("https://hyperhuman.deemos.com/")[*Deemos Technologies Inc*] (startup), SDE Intern, Part Time #h(1fr) 2021/10 - 2022/04
+== Industry Experience
+- #link("https://insightfinder.com/")[*InsightFinder AI*] (startup, Series A), SDE Intern, Full Time #h(1fr) 2024/06 - 2024/08
+- #link("https://hyperhuman.deemos.com/")[*Deemos Technologies Inc*] (startup, Series A), SDE Intern, Part Time #h(1fr) 2021/10 - 2022/04
 // - ShanghaiTech Univeristy HPC, Sysadmin Assistant #h(1fr) _2020/09 - 2022/06_
 
 
